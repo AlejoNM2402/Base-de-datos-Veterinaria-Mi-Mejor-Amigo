@@ -17,7 +17,7 @@ El diseño del modelo se realizó utilizando **MySQL Workbench**, donde se const
 📷 **Imagen del diagrama** ![Diagrama UML](Diagrama.png)
 
 
-#### Entidades:
+#### 📋 Entidades:
 
 - **Dueño**
 - **Mascota**
@@ -28,7 +28,7 @@ El diseño del modelo se realizó utilizando **MySQL Workbench**, donde se const
 - **Especie** (Es la especie de cada mascota)
 - **Raza** (Es la raza de cada mascota)
 
-#### Relaciones clave:
+#### 🔄 Relaciones clave:
 
 - Un **dueño** puede tener muchas **mascotas** (1:N)
 - Una **mascota** pertenece a un solo **dueño**
@@ -39,9 +39,9 @@ El diseño del modelo se realizó utilizando **MySQL Workbench**, donde se const
 
 ---
 
-## Archivos incluidos
+## 📖 Archivos incluidos
 
-### `estructura.sql` (DDL)
+### 📄`estructura.sql` (DDL)
 
 Contiene las sentencias `CREATE TABLE` para todas las entidades y relaciones. Incluye:
 
